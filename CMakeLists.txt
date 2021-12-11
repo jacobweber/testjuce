@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.18)
 set(PROJECT_NAME "Pamplejuce")
 
 # Set the plugin formats you'll be building here. Valid formats: AAX Unity VST AU AUv3 Standalone
-set(FORMATS AU VST3 AUv3)
+set(FORMATS AU VST3 AUv3 Standalone)
 
 # TODO: Automate/coordinate version with GitHub tagging?
 project(${PROJECT_NAME} VERSION 0.0.1)
