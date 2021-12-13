@@ -2,6 +2,8 @@
 # 3.19 is latest bundled CLion as of 2021.1
 cmake_minimum_required(VERSION 3.18)
 
+set(CMAKE_OSX_DEPLOYMENT_TARGET "10.13" CACHE STRING "Minimum OS X deployment version")
+
 # Change this to your project name
 set(PROJECT_NAME "Pamplejuce")
 
