@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false # show all errors for each platform (vs. cancel jobs on error)
       matrix:
-        os: [windows-latest, ubuntu-latest, macos-11.0]
+        os: [macos-latest]
         include:
         #- os: windows-latest
         #  artifact: Windows
