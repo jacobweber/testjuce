@@ -8,7 +8,7 @@ set(CMAKE_OSX_DEPLOYMENT_TARGET "10.13" CACHE STRING "Minimum OS X deployment ve
 set(PROJECT_NAME "Pamplejuce")
 
 # Set the plugin formats you'll be building here. Valid formats: AAX Unity VST AU AUv3 Standalone
-set(FORMATS AU VST3 Standalone)
+set(FORMATS AU VST3 AUv3 Standalone)
 
 # TODO: Automate/coordinate version with GitHub tagging?
 project(${PROJECT_NAME} VERSION 0.0.1)
