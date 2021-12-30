@@ -19,11 +19,11 @@ jobs:
       matrix:
         os: [windows-latest, ubuntu-latest, macos-11.0]
         include:
-        - os: windows-latest
-          artifact: Windows
-        - os: ubuntu-latest
-          artifact: Linux
-        - os: macos-11.0 # TODO: change once macos-latest catches up
+        #- os: windows-latest
+        #  artifact: Windows
+        #- os: ubuntu-latest
+        #  artifact: Linux
+        - os: macos-latest
           artifact: MacOS
 
     steps:
